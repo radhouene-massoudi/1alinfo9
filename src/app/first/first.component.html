@@ -1,0 +1,26 @@
+<h1> hello 1 alinfo9 </h1>
+<hr>
+
+{{klass}}
+<hr>
+<input type="submit" value="save" (click)="showMsg()">
+<hr>
+<div [style.backgroundColor]="kolor">
+    my div
+</div>
+<hr>
+<input type="submit" (click)="changeColor()">
+<input type="text" [(ngModel)]="kolor">
+<hr>
+<h1>directive</h1>
+
+
+<div *ngFor="let p of listProdcut">
+    <span *ngIf="p.quantity!==0">
+{{p.id}}
+{{p.title}}
+{{p.quantity}}
+{{p.price}}
+{{p.like}}
+</span>
+</div>
