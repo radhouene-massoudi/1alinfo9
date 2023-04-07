@@ -6,10 +6,12 @@ import { FirstComponent } from './first/first.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './core/mange Product/detail/detail.component';
+import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
 
 const r: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
+  {path:'add',component:AddproductComponent},
   {path:'test',component:TestComponent},
   {path:'f',component:FirstComponent},
   {path:'detail/:test',component:DetailComponent},

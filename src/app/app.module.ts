@@ -9,6 +9,7 @@ import { TestComponent } from './test/test.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './core/mange Product/detail/detail.component';
+import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DetailComponent } from './core/mange Product/detail/detail.component';
     TestComponent,
     NotfoundComponent,
     LoginComponent,
-    DetailComponent
+    DetailComponent,
+    AddproductComponent
   ],
   imports: [
     BrowserModule,
