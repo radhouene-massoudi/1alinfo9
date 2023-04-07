@@ -6,13 +6,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { TestComponent } from './test/test.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { LoginComponent } from './login/login.component';
+import { DetailComponent } from './core/mange Product/detail/detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    TestComponent
+    TestComponent,
+    NotfoundComponent,
+    LoginComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

@@ -81,3 +81,16 @@
 </div>
 </div>
 </div>
+
+<hr>
+<div *ngFor="let p of listProdcut">
+   
+        {{p.id}}
+        {{p.title}}
+        {{p.quantity}}
+        {{p.price}}
+        {{p.like}}
+   <a routerLink="/detail/{{p.id}}">detail</a>
+   <a [routerLink]="['/detail/',p.id]">detail</a>
+
+</div>
