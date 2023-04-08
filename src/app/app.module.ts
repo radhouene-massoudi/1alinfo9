@@ -10,7 +10,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './core/mange Product/detail/detail.component';
 import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './core/mange Product/products/products.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +21,14 @@ import { AddproductComponent } from './core/mange Product/addproduct/addproduct.
     NotfoundComponent,
     LoginComponent,
     DetailComponent,
-    AddproductComponent
+    AddproductComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

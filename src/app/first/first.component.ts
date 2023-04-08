@@ -40,5 +40,7 @@ showMsg(){
 changeColor(){
   this.kolor='pink'
 }
-
+test(){
+    
+}
 }

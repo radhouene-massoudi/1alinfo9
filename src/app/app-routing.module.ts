@@ -7,10 +7,12 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './core/mange Product/detail/detail.component';
 import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
+import { ProductsComponent } from './core/mange Product/products/products.component';
 
 const r: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
+  {path:'products',component:ProductsComponent},
   {path:'add',component:AddproductComponent},
   {path:'test',component:TestComponent},
   {path:'f',component:FirstComponent},
