@@ -12,6 +12,8 @@ import { DetailComponent } from './core/mange Product/detail/detail.component';
 import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductsComponent } from './core/mange Product/products/products.component';
+import { UpdateComponent } from './core/mange Product/update/update.component';
+import { RemoveproductComponent } from './core/mange Product/removeproduct/removeproduct.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ProductsComponent } from './core/mange Product/products/products.compon
     LoginComponent,
     DetailComponent,
     AddproductComponent,
-    ProductsComponent
+    ProductsComponent,
+    UpdateComponent,
+    RemoveproductComponent
   ],
   imports: [
     BrowserModule,

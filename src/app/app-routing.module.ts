@@ -8,12 +8,16 @@ import { LoginComponent } from './login/login.component';
 import { DetailComponent } from './core/mange Product/detail/detail.component';
 import { AddproductComponent } from './core/mange Product/addproduct/addproduct.component';
 import { ProductsComponent } from './core/mange Product/products/products.component';
+import { UpdateComponent } from './core/mange Product/update/update.component';
+import { RemoveproductComponent } from './core/mange Product/removeproduct/removeproduct.component';
 
 const r: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
+  {path:'remove/:id',component:RemoveproductComponent},
   {path:'products',component:ProductsComponent},
   {path:'add',component:AddproductComponent},
+  {path:'update/:id',component:UpdateComponent},
   {path:'test',component:TestComponent},
   {path:'f',component:FirstComponent},
   {path:'detail/:test',component:DetailComponent},

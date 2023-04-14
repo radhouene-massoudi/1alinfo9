@@ -1,1 +1,8 @@
-<p>products works!</p>
+<div *ngFor="let product of products">
+{{product.title}}
+{{product.price}}
+{{product.quantity}}
+<a [routerLink]="['/update/',product.id]">update</a>
+<a [routerLink]="['/remove/',product.id]">remove</a>
+
+</div>
